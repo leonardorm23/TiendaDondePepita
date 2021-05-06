@@ -4,7 +4,8 @@ let Schema = mongoose.Schema;
 let productoSchema = Schema({
     nombre:String,
     descripcion:String,
-    precio:Number
+    precio:Number,
+    imagen:String
 });
 
 module.exports = mongoose.model("producto", productoSchema);
